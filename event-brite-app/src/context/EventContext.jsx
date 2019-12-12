@@ -9,7 +9,7 @@ class EventProvider extends Component {
         events:[],
     }
     
-    token='RCSMA76ZNJ4UCJYWPB3P';
+    token='';
     orderBy='date';
 
     getEvents = async (search) => {
