@@ -80,7 +80,7 @@ function App() {
               <Form getWeather={getWeather} />
             </div>
             <div className="col s12 m6">
-              {Object.keys(response).length != 0 && <Weather data={response} />}
+              {Object.keys(response).length !== 0 && <Weather data={response} />}
             </div>
           </div>
         </div>

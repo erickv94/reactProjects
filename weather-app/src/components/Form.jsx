@@ -47,7 +47,7 @@ const Form = ({getWeather}) => {
                   <option value="ES">España</option>
                   <option value="PE">Peru</option>
                 </select>
-                <label htmlFor="city">City</label>
+                <label htmlFor="city">Country</label>
               </div>
               <div className="input-field col s12">
                 <button
