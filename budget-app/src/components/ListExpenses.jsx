@@ -4,7 +4,7 @@ import Expense from './Expense';
 const ListExpenses = ({expenses}) => {
     return (
         <div className="gastos-realizados">
-            <h2>Listado</h2>
+            <h2>List</h2>
             {  
                 expenses.map(expense=>(
                  <Expense expense={expense} key={expense.id} />  
